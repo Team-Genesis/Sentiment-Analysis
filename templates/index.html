@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	
+{% endblock %}
+
+{% block body %}
+	<h1> Template</h1>
+	<form method="POST" action="/getsentiment" enctype="mulipart/form-data">
+		<input type="text" name="content" id="content">
+		<input type="submit" value="Add Task">
+
+	</form>
+	<p id="para"></p>
+{% endblock %}
