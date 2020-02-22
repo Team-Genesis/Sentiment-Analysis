@@ -1,4 +1,25 @@
 body{
-	margin: 0;
+	margin: 0px;
 	font-family: sans-serif;
+	background-color: "#f5f1e9";
+}
+.mainContent{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.heading{
+	width: 100%;
+	height: auto;
+	padding-left: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #ed263d;
+}
+.formContent{
+	width: 500px; 
+	height: 100px;
+}
+.submitButton{
+	width: 200px; 
+	height: 70px; 
 }
